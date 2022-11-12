@@ -29,4 +29,4 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/ianm/oauth-twitch)
 - [GitHub](https://github.com/imorland/flarum-ext-oauth-twitch)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Discuss](https://discuss.flarum.org/d/31955)

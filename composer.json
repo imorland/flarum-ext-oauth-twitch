@@ -21,7 +21,7 @@
     "support": {
         "issues": "https://github.com/imorland/flarum-ext-oauth-twitch/issues",
         "source": "https://github.com/imorland/flarum-ext-oauth-twitch",
-        "forum": "https://discuss.flarum.org/d/31860"
+        "forum": "https://discuss.flarum.org/d/31955"
     },
     "autoload": {
         "psr-4": {

@@ -1,0 +1,62 @@
+{
+    "name": "ianm/oauth-twitch",
+    "description": "Login to your Flarum forum with Twitch",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0",
+        "fof/oauth": "^1.2",
+        "vertisan/oauth2-twitch-helix": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "IanM",
+            "email": "ian@morland.dev",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/imorland/flarum-ext-oauth-twitch/issues",
+        "source": "https://github.com/imorland/flarum-ext-oauth-twitch",
+        "forum": "https://discuss.flarum.org/d/31860"
+    },
+    "autoload": {
+        "psr-4": {
+            "IanM\\OAuthTwitch\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Log In With Twitch",
+            "category": "feature",
+            "icon": {
+                "name": "fab fa-twitch",
+                "color": "#fff",
+                "backgroundColor": "#9146ff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": false,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": false,
+                "prettier": false,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": false,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

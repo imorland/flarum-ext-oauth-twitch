@@ -8,7 +8,7 @@
     "license": "MIT",
     "require": {
         "flarum/core": "^1.2.0",
-        "fof/oauth": "^1.2",
+        "fof/oauth": "^1.3",
         "vertisan/oauth2-twitch-helix": "^1.1"
     },
     "authors": [

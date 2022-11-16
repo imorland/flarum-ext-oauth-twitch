@@ -15,7 +15,7 @@ use Flarum\Extend;
 use FoF\OAuth\Extend as OAuthExtend;
 
 return [
-    
+
     (new Extend\Frontend('admin'))
         ->js(__DIR__.'/js/dist/admin.js'),
 

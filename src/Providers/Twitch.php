@@ -61,7 +61,6 @@ class Twitch extends Provider
     public function suggestions(Registration $registration, $user, string $token)
     {
         /** @var TwitchHelixResourceOwner $user */
-
         $registration
             ->suggestUsername($user->getDisplayName())
             ->setPayload($user->toArray());
